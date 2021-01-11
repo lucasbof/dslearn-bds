@@ -112,6 +112,10 @@ public class Deliver implements Serializable {
 		this.enrollment = enrollment;
 	}
 
+	public Lesson getLesson() {
+		return lesson;
+	}
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
